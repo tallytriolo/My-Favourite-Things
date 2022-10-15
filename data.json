@@ -1,0 +1,34 @@
+
+{"things": [ 
+    {
+      
+      "hobbies": {
+        "name":"Mural Painting",
+        "description":"I've been painting murals since 2018, and this has become a job and hobby for me.",
+        "curiosity":"Curiosity: I think I've painted more than 30 murals in Brazil, and in Canada, I've painted two.",
+        "frequency":"How often do I do this? I used to paint about two murals a month.",
+        "image":"painting.jpg",
+        "id":"painting"
+      }
+    },
+    {
+      "hobbies":{
+        "name": "Trails",
+        "description":"I've always enjoyed walking on trails and parks to meditate and relax the mind.",
+        "curiosity":"Curiosity: I always end the walk with more than 100 photos on my cell phone. I love taking pictures, by the way.",
+        "frequency":"How often do I do this? Usually, every week I go for a walk on different trails.",
+        "image":"trails.jpg",
+        "id":"trails"
+      }
+    },
+    {
+      "hobbies":{
+        "name": "Coffee Shop",
+        "description":"Coffee is always a good idea. I love to know different coffee shops around the world.",
+        "curiosity":"Curiosity: Although I like to visit different coffee shops, I always order the same coffee.",
+        "frequency":"How often do I do this? A stop at a coffee shop is mandatory if I'm going to a new city.",
+        "image":"coffee.jpg",
+        "id":"coffee"
+      }
+    }
+  ]}
