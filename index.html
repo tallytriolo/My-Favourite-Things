@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.typekit.net/pie6iix.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>My Favourite Things Web App</title>
+</head>
+<body>
+    <main class="main container">
+    <section class="home-scroll">
+        <h1>Hello there!</h1>
+        <h2>I am Tally, an Interactive Media Design student.</h2>
+            <p>Scroll down the page and discover some of my favourite things.</p>
+        <div class="arrow">
+            <a class="scroll-btn" href="#fav-section"></a>
+        </div>
+    </section>
+
+    <section id="fav-section">
+        <h2 class="text-things"> Know three things I like to do in my free time. </h2>
+        <h3 class="sub-text-things">Click in each button to discover more!</h3>
+    </section>
+
+        <section class="content-things">
+            <!-- dynamic content get injected here -->
+        </section>    
+
+        <section class="query-controls">
+            <!-- inject the category buttons -->
+        </section> 
+    </main>
+
+        <!-- Templates don't get rendered, but their content will be -->
+    <template id="things-template">
+        <section>
+            <div>
+                <img src="" alt="favorite things images">
+            </div>
+            <h2 class="fav-things"> My Favorite Things </h2> 
+            <!-- <-- h2 child 1 -->
+            <p>slug</p>
+            <p>slug</p>
+            <p>slug</p>
+        </section>
+    </template>
+    <script src="js/main.js" defer type="module"></script>
+</body>
+</html>
