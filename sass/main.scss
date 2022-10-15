@@ -1,0 +1,15 @@
+@import "./modules/_reset.scss";
+@import "./modules/_vars.scss";
+/* this is a perfectly valid SASS comment */
+
+// @import "./modules/defaults"; /* mobile styles (these load first */
+
+/* responsive styles next */
+@import "./modules/_queries.scss";
+@import "./modules/_things.scss";
+@import"./modules/_keyframes.scss";
+
+/* everything else */
+@import "./modules/_main.scss";
+
+/* sass --watch sass:css --style compressed */
